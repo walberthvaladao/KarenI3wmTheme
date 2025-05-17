@@ -1,0 +1,98 @@
+conky.config = {
+--==============================================================================
+-- Nome: I3WM Atalhos - Baseado no tema Karen 
+--
+-- Última atualização 19/11/2024
+--
+-- Criado em um monitor com a resolução 1920x1080
+--
+--==============================================================================
+
+-- Size and Position settings --
+  alignment = 'top_left',
+  gap_x = 50,
+  gap_y = 80,
+  maximum_width = 250,
+  minimum_height = 950,
+  minimum_width = 250,
+  
+-- Text settings --
+  use_xft = true,
+  override_utf8_locale = true,
+  font = 'Roboto:Regular:size=9',
+  
+-- Color Settings --
+  default_color = 'white',
+  default_outline_color = 'white',
+  default_shade_color = 'white',
+  color2 = '#3281ea',
+  
+-- Window Settings --
+  background = true,
+  border_width = 20,
+  draw_borders = false,
+  draw_graph_borders = true,
+  draw_outline = false,
+  draw_shades = false,
+  own_window = true,
+  own_window_colour = '#1a1a1a',
+  own_window_class = 'conky',
+  own_window_argb_visual = true,
+  own_window_type = 'desktop',
+  own_window_transparent = false,
+  own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+  own_window_type = 'override',
+  stippled_borders = 0,
+
+-- Window transparent --
+  own_window_argb_visual = true,
+  own_window_argb_value = 220,  
+ 
+-- Others --
+  cpu_avg_samples = 2,
+  net_avg_samples = 2,
+  double_buffer = true,
+  no_buffers = true,
+  out_to_console = false,
+  out_to_stderr = false,
+  extra_newline = false,
+  update_interval = 1,
+  uppercase = false,
+  use_spacer = 'none',
+  short_units = true,
+  show_graph_scale = false,
+  show_graph_range = false,  
+}
+
+conky.text = [[
+${color}${font Symbols Nerd Font:Regular:size=16}${font Roboto:light:size=15}    Atalhos do I3WM
+${voffset 15}${color}${font Roboto:style=Bold Italic:size=11}Principais ------------------------------------------
+${voffset 15}${font Roboto:Medium:size=11}Win + 1->9 - ${font Roboto:Light:size=11}Mudar área de trabalho
+${voffset 15}${font Roboto:Medium:size=11}Win + P - ${font Roboto:Light:size=11}Menu de aplicativos
+${voffset 15}${font Roboto:Medium:size=11}Win + X - ${font Roboto:Light:size=11}Menu de sessão
+${voffset 15}${font Roboto:Medium:size=11}Win + Q - ${font Roboto:Light:size=11}Fechar janela
+${voffset 15}${font Roboto:Medium:size=11}Win + Shift + E - ${font Roboto:Light:size=11}Sair da sessão
+${voffset 25}${color}${font Roboto:style=Bold Italic:size=11}Janelas ---------------------------------------------
+${voffset 15}${font Roboto:Medium:size=11}Win + Shift + Espaço - ${font Roboto:Light:size=11}Ativar/
+${voffset 5}Desativar janela flutuante
+${voffset 15}${font Roboto:Medium:size=11}Win + setas - ${font Roboto:Light:size=11}Mudar janela de lugar
+${voffset 15}${font Roboto:Medium:size=11}Win + J - ${font Roboto:Light:size=11}Seleciona janela a esquerda
+${voffset 15}${font Roboto:Medium:size=11}Win + K - ${font Roboto:Light:size=11}Seleciona janela de baixo
+${voffset 15}${font Roboto:Medium:size=11}Win + L - ${font Roboto:Light:size=11}Seleciona janela de cima
+${voffset 15}${font Roboto:Medium:size=11}Win + Ç - ${font Roboto:Light:size=11}Seleciona janela a direita
+${voffset 15}${font Roboto:Medium:size=11}Win + setas - ${font Roboto:Light:size=11}Selecionar janela
+${voffset 15}${font Roboto:Medium:size=11}Win + Shift + (J,K,L,Ç,setas) - ${font Roboto:Light:size=11}Mover 
+${voffset 5}janela ativa
+${voffset 25}${color}${font Roboto:style=Bold Italic:size=11}Modos -----------------------------------------------
+${voffset 15}${font Roboto:Medium:size=11}Win + H - ${font Roboto:Light:size=11}Ativar modo horizontal
+${voffset 15}${font Roboto:Medium:size=11}Win + V - ${font Roboto:Light:size=11}Ativar modo vertical
+${voffset 15}${font Roboto:Medium:size=11}Win + F - ${font Roboto:Light:size=11}Ativar modo tela cheia
+${voffset 15}${font Roboto:Medium:size=11}Win + S - ${font Roboto:Light:size=11}Ativar modo stacking
+${voffset 15}${font Roboto:Medium:size=11}Win + W - ${font Roboto:Light:size=11}Ativar modo tabbed
+${voffset 15}${font Roboto:Medium:size=11}Win + E - ${font Roboto:Light:size=11}Ativar modo toggle split
+${voffset 25}${color}${font Roboto:style=Bold Italic:size=11}I3WM ------------------------------------------------
+${voffset 15}${font Roboto:Medium:size=11}Win + Shift + C - ${font Roboto:Light:size=11}Recarregar 
+${voffset 5}configuração I3WM
+${voffset 15}${font Roboto:Medium:size=11}Win + Shift + R - ${font Roboto:Light:size=11}Reiniciar I3WM
+]]
+
