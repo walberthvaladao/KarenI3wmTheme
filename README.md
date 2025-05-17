@@ -1,10 +1,10 @@
 
 # Tema/Configuração para I3WM. Lista de dependências:
 
-Rofi
-Conky
-Picom
-Polybar
+- Rofi 
+- Conky 
+- Picom 
+- Polybar 
 
 Os Scripts dependem de outras pacotes que não lembro agora, verifique o que não funciona e resolva as depedências que faltam.
 
